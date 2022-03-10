@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local-storage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-3xl py-2 mx-8">Shopping</h1>
+    <input type="text" id="product-name" class="border border-2 rounded-r px-4 py-2 w-1/4 mx-8">
+    <button onclick="addItem()"
+        class="border-2 border-purple-600 text-black px-4 py-2 rounded-md text-1xl font-medium hover:bg-purple-500 transition duration-300">Add
+        Item</button>
+    <br>
+    <ul id="products" class="mx-8">
+
+    </ul>
+    <br>
+    <button onclick="placeOrder()"
+        class="border-2 border-purple-600 text-black px-4 py-2 rounded-md text-1xl font-medium hover:bg-purple-500 transition duration-300 mx-8">Place
+        Order</button>
+    <script src="shopping.js"></script>
+</body>
+
+</html>
